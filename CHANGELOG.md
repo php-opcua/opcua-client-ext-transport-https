@@ -62,3 +62,4 @@ Full details in [`ROADMAP.md`](./ROADMAP.md). All items are **community-driven**
 - **JSON encoding (Part 6 §7.4.5)** — the profile URI is registered by OPC Foundation but no production server stack implements it end-to-end (UA-.NETStandard rejects non-binary content types, Eclipse Milo's HTTPS module is incubating + binary-only, open62541 / node-opcua / asyncua have no HTTPS at all).
 - **XML (SOAP body) encoding (Part 6 §7.4.3)** — same situation as JSON: spec-only, no server to validate against.
 - **`https://` SOAP/XML legacy with WS-SecureConversation (Part 6 §7.3 + §6.6)** — legacy SOAP/HTTP for classic .NET 3.5 / WCF OPC UA servers; likely a separate `WsSoapTransport` because WS-SecureConversation needs per-request token plumbing outside TLS.
+ 

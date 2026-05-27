@@ -92,6 +92,25 @@ jobs:
         with:
           services: opcua-https-binary
 
+      - name: Wait for opcua-https-binary to accept requests
+        run: |
+          set -e
+          for i in $(seq 1 60); do
+            code=$(curl -sk -o /dev/null -w '%{http_code}' -X POST \
+              -H 'Content-Type: application/octet-stream' \
+              --data-binary '' \
+              https://localhost:4852/UA/TestServer || echo "000")
+            if [ "$code" != "000" ] && [ "$code" != "503" ]; then
+              echo "opcua-https-binary is ready (HTTP $code after $i attempts)"
+              exit 0
+            fi
+            echo "attempt $i: opcua-https-binary not reachable yet (got '$code'), retrying in 2s..."
+            sleep 2
+          done
+          echo "opcua-https-binary did not become reachable within 120s — capturing server logs"
+          docker compose -f .uanetstandard-test-suite/docker-compose.yml logs --tail=200 opcua-https-binary || true
+          exit 1
+
       - name: Run integration tests
         working-directory: opcua-client-ext-transport-https
         env:

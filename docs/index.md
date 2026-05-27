@@ -1,0 +1,26 @@
+# Documentation Index
+
+- Getting started
+  - [Overview](./overview.md)
+  - [Installation](./getting-started/installation.md)
+  - [Quick start](./getting-started/quick-start.md)
+- Concepts
+  - [How HTTPS transport works](./concepts/how-it-works.md)
+  - [Encodings (Binary, JSON, XML-SOAP)](./concepts/encodings.md)
+- Implementations — Part 6 §7 mapping status
+  - [Status overview (all four mappings)](./implementations/index.md)
+  - [HTTPS Binary (§7.4.4)](./implementations/binary.md)
+  - [HTTPS JSON (§7.4.5)](./implementations/json.md)
+  - [HTTPS XML — SOAP body (§7.4.3)](./implementations/xml-soap.md)
+  - [Legacy SOAP/HTTP + WS-SecureConversation (§7.3 + §6.6)](./implementations/legacy-soap.md)
+- API
+  - [Transport](./api/transport.md)
+  - [Encoding strategies](./api/encoding-strategies.md)
+  - [HTTP client](./api/http-client.md)
+  - [Events](./api/events.md)
+- Recipes
+  - [TLS and certificate trust](./recipes/tls-and-cert-trust.md)
+  - [Corporate proxy](./recipes/corporate-proxy.md)
+  - [Connection pooling](./recipes/connection-pooling.md)
+- Reference
+  - [Exceptions](./reference/exceptions.md)

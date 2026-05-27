@@ -1,0 +1,14 @@
+{
+  "TypeId": {
+    "Id": 426
+  },
+  "Body": {
+    "RequestHeader": {
+      "Timestamp": "2026-05-27T10:30:45.123456Z",
+      "RequestHandle": 1,
+      "ReturnDiagnostics": 0,
+      "TimeoutHint": 10000
+    },
+    "EndpointUrl": "opc.https://localhost:4852/UA/TestServer"
+  }
+}

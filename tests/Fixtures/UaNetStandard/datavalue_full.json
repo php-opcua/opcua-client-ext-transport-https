@@ -1,0 +1,13 @@
+{
+  "value": {
+    "Value": {
+      "Type": 6,
+      "Body": 123
+    },
+    "StatusCode": 11075584,
+    "SourceTimestamp": "2026-05-27T10:30:45.123456Z",
+    "SourcePicoseconds": 100,
+    "ServerTimestamp": "2026-05-27T10:30:45.173456Z",
+    "ServerPicoseconds": 200
+  }
+}

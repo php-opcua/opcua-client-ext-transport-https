@@ -1,0 +1,11 @@
+{
+  "TypeId": {
+    "Id": 429
+  },
+  "Body": {
+    "ResponseHeader": {
+      "Timestamp": "2026-05-27T10:30:45.123456Z",
+      "RequestHandle": 1
+    }
+  }
+}

@@ -5,7 +5,7 @@
   "support": {
     "issues": "https://github.com/php-opcua/opcua-client-ext-transport-https/issues",
     "source": "https://github.com/php-opcua/opcua-client-ext-transport-https",
-    "docs": "https://www.php-opcua.com/dev/components"
+    "docs": "https://www.php-opcua.com/documentation/opcua-client-ext-transport-https"
   },
   "type": "library",
   "license": "MIT",

@@ -1,6 +1,6 @@
 # Changelog
 
-## [v4.4.0] - TBD
+## [v4.4.0] - 2026-06-04
 
 - Requires `php-opcua/opcua-client` ^4.4 (the version that introduces `ClientTransportInterface::createProbe()` and `isSecureChannelExternal()`, plus the `openSecureChannelExternal()` branch that skips OPN when the transport supplies TLS as the secure channel)
 - Requires `php-opcua/uanetstandard-test-suite` v1.5.0+ for the integration suite (new `opcua-https-binary` service on port 4852 backed by a pre-generated RSA 2048 certificate)

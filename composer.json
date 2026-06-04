@@ -12,7 +12,7 @@
   "authors": [
     {
       "name": "Gianfrancesco Aurecchia",
-      "email": "gianfri.aur@gmail.com"
+      "email": "gianfri@php-opcua.com"
     }
   ],
   "keywords": [
@@ -38,20 +38,11 @@
       "PhpOpcua\\Client\\ExtTransportHttps\\Tests\\": "tests/"
     }
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../opcua-client",
-      "options": {
-        "symlink": true
-      }
-    }
-  ],
   "require": {
     "php": "^8.2",
     "ext-curl": "*",
     "ext-openssl": "*",
-    "php-opcua/opcua-client": "^4.4@dev|dev-master",
+    "php-opcua/opcua-client": "^4.4",
     "psr/log": "^3.0",
     "psr/event-dispatcher": "^1.0"
   },

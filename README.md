@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/php-opcua/opcua-client-ext-transport-https/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/php-opcua/opcua-client-ext-transport-https/tests.yml?branch=master&label=tests&style=flat-square" alt="Tests"></a>
+  <a href="https://codecov.io/gh/php-opcua/opcua-client-ext-transport-https"><img src="https://img.shields.io/codecov/c/github/php-opcua/opcua-client-ext-transport-https?style=flat-square&logo=codecov" alt="Coverage"></a>
   <a href="https://packagist.org/packages/php-opcua/opcua-client-ext-transport-https"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-client-ext-transport-https?style=flat-square&label=packagist" alt="Latest Version"></a>
   <a href="https://packagist.org/packages/php-opcua/opcua-client-ext-transport-https"><img src="https://img.shields.io/packagist/php-v/php-opcua/opcua-client-ext-transport-https?style=flat-square" alt="PHP Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/php-opcua/opcua-client-ext-transport-https?style=flat-square" alt="License"></a>
